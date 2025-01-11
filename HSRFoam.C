@@ -34,7 +34,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "fvCFD.H"
-#include "fluidReactionThermo.H"        // Changed from fluidThermo
+#include "psiReactionThermo.H"       // Changed from fluidThermo
 #include "combustionModel.H"            // Added for reactions
 #include "compressibleMomentumTransportModels.H"
 #include "fluidReactionThermophysicalTransportModel.H"  // Changed for reactions

@@ -2,8 +2,8 @@
 
 Info<< "Reading thermophysical properties\n" << endl;
 
-autoPtr<fluidReactionThermo> pThermo(fluidReactionThermo::New(mesh));
-fluidReactionThermo& thermo = pThermo();
+autoPtr<psiReactionThermo> pThermo(psiReactionThermo::New(mesh));
+psiReactionThermo& thermo = pThermo();
 thermo.validate(args.executable(), "h", "e");
 
 
